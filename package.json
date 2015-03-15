@@ -1,0 +1,17 @@
+{
+  "name": "user-flow",
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/latentflip/user-flow/issues"
+  },
+  "homepage": "https://github.com/latentflip/user-flow",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/latentflip/user-flow.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
