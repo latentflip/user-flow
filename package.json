@@ -12,11 +12,14 @@
     "url": "https://github.com/latentflip/user-flow.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test":  "node -e \"require('babel/register'); require('./example/todomvc');\""
   },
   "dependencies": {
     "chai": "^2.1.1",
     "chai-as-promised": "^4.3.0",
     "webdriverio": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel": "^4.7.12"
   }
 }

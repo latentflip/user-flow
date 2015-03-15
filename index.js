@@ -1,5 +1,5 @@
 module.exports = {
-    suite: require('./suite'),
-    Page: require('./page'),
-    Client: require('./client')
+    suite: require('./lib/suite'),
+    Page: require('./lib/page'),
+    Client: require('./lib/client')
 };
