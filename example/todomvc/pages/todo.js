@@ -27,8 +27,8 @@ class TodoPage extends UserFlow.Page {
     
     clearCompleted() {
         return this.completeButton.waitFor(500)
-                    //Because todomvc's UI is terrible
-                    .then(() => this.completeButton.moveToObject(10, 5))
+                    //Because the UI for todomvc is wild
+                    .then(() => this.completeButton.moveToObject(30, 5))
                     .then(() => this.client.leftClick());
     }
 
@@ -36,10 +36,6 @@ class TodoPage extends UserFlow.Page {
         return this.query(`#todo-list li:nth-child(${n})`);
     }
     
-    getTodoCount() {
-        return this.todoItems.count();
-    }
-
 }
 
 module.exports = TodoPage;
