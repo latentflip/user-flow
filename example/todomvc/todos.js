@@ -9,7 +9,6 @@ suite('todos', (s) => {
     s.beforeEach(() => {
         c.initPage('todo', TodoPage);
         return c.url('http://todomvc.com/examples/react/')
-                .then(() => c.saveScreenshot('./foo.png'))
     });
 
     s.scenario('Loads page', () => {
